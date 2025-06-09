@@ -1,0 +1,56 @@
+2025-04-01 14:24:56.834 +09:00 [INF] [Workspace] Unloaded project with path: 
+2025-04-01 14:25:00.601 +09:00 [INF] [PathResolver]: Attempting to resolve name: App.xaml
+2025-04-01 14:25:01.215 +09:00 [INF] Loading theme with path: 
+2025-04-01 14:25:09.521 +09:00 [INF] [PathResolver]: Attempting to resolve name: App.xaml
+2025-04-01 14:25:09.762 +09:00 [INF] Loading theme with path: 
+2025-04-01 14:26:31.778 +09:00 [INF] [MauiImpactManager] Created temporary folder at: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a
+2025-04-01 14:26:31.793 +09:00 [INF] [MauiImpactManager] Started persisting changes temporally at: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact
+2025-04-01 14:26:31.919 +09:00 [INF] [MauiImpactManager]: Processing incomming files...
+2025-04-01 14:26:31.922 +09:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#Poppins-Regular.ttf, ProjectPath = Resources\Fonts\Poppins-Regular.ttf }
+2025-04-01 14:26:31.923 +09:00 [INF] [PathResolver]: Resolved asset with id {Grial#Poppins-Regular.ttf} with { Path: C:\graduationProject\MovieReviewProject\MovieReviewProject\Resources\Fonts\Poppins-Regular.ttf, RelativePath: Resources\Fonts\Poppins-Regular.ttf, AssignedDestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Resources\Fonts\Poppins-Regular.ttf }
+2025-04-01 14:26:31.926 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Resources\Fonts\Poppins-Regular.ttf Destination:C:\graduationProject\MovieReviewProject\MovieReviewProject\Resources\Fonts\Poppins-Regular.ttf
+2025-04-01 14:26:31.956 +09:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\MovieUI.xaml.cs }
+2025-04-01 14:26:31.956 +09:00 [INF] [PathResolver]: Resolved asset with id {Grial#LightTheme.xaml} with { Path: C:\graduationProject\MovieReviewProject\MovieReviewProject\Themes\MovieUI.xaml.cs, RelativePath: Themes\MovieUI.xaml.cs, AssignedDestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml.cs }
+2025-04-01 14:26:31.958 +09:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\MovieUI.xaml }
+2025-04-01 14:26:31.958 +09:00 [INF] [PathResolver]: Resolved asset with id {Grial#LightTheme.xaml} with { Path: C:\graduationProject\MovieReviewProject\MovieReviewProject\Themes\MovieUI.xaml, RelativePath: Themes\MovieUI.xaml, AssignedDestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml }
+2025-04-01 14:26:31.959 +09:00 [INF] [MauiImpactManager]: Checking App.xaml namespaces...
+2025-04-01 14:26:31.959 +09:00 [INF] [PathResolver]: Attempting to resolve name: App.xaml
+2025-04-01 14:26:31.959 +09:00 [INF] [PathResolver]: Resolved asset with name {App.xaml} with { Path: C:\graduationProject\MovieReviewProject\MovieReviewProject\App.xaml, RelativePath: App.xaml, AssignedDestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\App.xaml }
+2025-04-01 14:26:31.969 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\App.xaml Destination:C:\graduationProject\MovieReviewProject\MovieReviewProject\App.xaml
+2025-04-01 14:26:31.975 +09:00 [INF] [MauiImpactManager]: Processing FileUpdates...
+2025-04-01 14:26:31.980 +09:00 [INF] [PathResolver]: Attempting to resolve name: ThemeCompatibility.xaml
+2025-04-01 14:26:31.986 +09:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\MovieUI.xaml.cs }
+2025-04-01 14:26:31.989 +09:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\MovieUI.xaml.cs }
+2025-04-01 14:26:31.992 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml.cs Destination:C:\graduationProject\MovieReviewProject\MovieReviewProject\Themes\MovieUI.xaml.cs
+2025-04-01 14:26:31.996 +09:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\MovieUI.xaml }
+2025-04-01 14:26:31.998 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml Destination:C:\graduationProject\MovieReviewProject\MovieReviewProject\Themes\MovieUI.xaml
+2025-04-01 14:26:32.006 +09:00 [INF] [MauiImpactManager]: Adding font declarations...
+2025-04-01 14:26:32.006 +09:00 [INF] [PathResolver]: Attempting to resolve name: MauiProgram.cs
+2025-04-01 14:26:32.006 +09:00 [INF] [PathResolver]: Resolved asset with name {MauiProgram.cs} with { Path: C:\graduationProject\MovieReviewProject\MovieReviewProject\MauiProgram.cs, RelativePath: MauiProgram.cs, AssignedDestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\MauiProgram.cs }
+2025-04-01 14:26:32.091 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\MauiProgram.cs Destination:C:\graduationProject\MovieReviewProject\MovieReviewProject\MauiProgram.cs
+2025-04-01 14:26:32.099 +09:00 [INF] [MauiImpactManager]: Updating project file...
+2025-04-01 14:26:32.108 +09:00 [INF] [MauiImpactManager]: Added nugget Nuget { Id = UXD.Grial.Basic, Version = 4.2.114, IsPivate = False, Initialization = PackagingInitialization { Name = UseGrial, Namespace = UXDivers.Grial }, PackIdToRemove = UXDivers.GrialMaui, UpdateOnly = False }
+2025-04-01 14:26:32.114 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\MovieReviewProject.csproj Destination:C:\graduationProject\MovieReviewProject\MovieReviewProject\MovieReviewProject.csproj
+2025-04-01 14:26:32.119 +09:00 [INF] [MauiImpactManager]: Adding handler nuget initializations...
+2025-04-01 14:26:32.119 +09:00 [INF] [PathResolver]: Attempting to resolve name: MauiProgram.cs
+2025-04-01 14:26:32.119 +09:00 [INF] [PathResolver]: Resolved filter with key: ResolutionInfoKey { Id = Grial#MauiProgram.cs, ProjectPath = MauiProgram.cs }
+2025-04-01 14:26:32.133 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\MauiProgram.cs Destination:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\MauiProgram.cs
+2025-04-01 14:26:32.133 +09:00 [INF] [ChangeManager] (Add) Invalid paths
+2025-04-01 14:26:32.137 +09:00 [INF] [MauiImpactManager]: Processing builder...
+2025-04-01 14:26:32.140 +09:00 [INF] [LocalImpactBuilder]: Resolved {AssetId: , Path: C:\graduationProject\MovieReviewProject\MovieReviewProject\App.xaml} to {SourcePath: C:\graduationProject\MovieReviewProject\MovieReviewProject\App.xaml, DestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\App.xaml}
+2025-04-01 14:26:32.150 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\App.xaml Destination:C:\graduationProject\MovieReviewProject\MovieReviewProject\App.xaml
+2025-04-01 14:26:32.150 +09:00 [INF] [ChangeManager] (Add) Already has destination
+2025-04-01 14:26:32.150 +09:00 [INF] [PathResolver]: Resolved filter with key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\MovieUI.xaml }
+2025-04-01 14:26:32.150 +09:00 [INF] [PathResolver]: Resolved id {Grial#LightTheme.xaml} with { Path: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml, RelativePath: Themes\MovieUI.xaml, AssignedDestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml }
+2025-04-01 14:26:32.150 +09:00 [INF] [LocalImpactBuilder]: Resolved {AssetId: Grial#LightTheme.xaml, Path: } to {SourcePath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml, DestinationPath: C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml}
+2025-04-01 14:26:32.162 +09:00 [INF] [ChangeManager] (Add) Source:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml Destination:C:\Users\mando\AppData\Local\Temp\32099569-1ba4-42fe-a018-77a6f194b95a\impact\Themes\MovieUI.xaml
+2025-04-01 14:26:32.162 +09:00 [INF] [ChangeManager] (Add) Invalid paths
+2025-04-01 14:26:32.162 +09:00 [INF] [MauiImpactManager] Finished presisting changes temporaly
+2025-04-01 14:26:49.433 +09:00 [INF] [ImpactManager] ChangeManagerConfirmed
+2025-04-01 14:26:49.438 +09:00 [INF] [MauiImpactManager] Started changes persistence
+2025-04-01 14:26:49.471 +09:00 [INF] [MauiImpactManager] Finished persisting changes
+2025-04-01 14:26:49.474 +09:00 [INF] [AssetsExplorer] Cleared existing assets by impacts
+2025-04-01 14:26:50.254 +09:00 [INF] [AssetsExplorer] Cleared existing assets by project change
+2025-04-01 14:26:50.265 +09:00 [INF] [EventAggregator] (HandleAsync) Updated xaml path: C:\graduationProject\MovieReviewProject\MovieReviewProject\App.xaml
+2025-04-01 14:26:50.302 +09:00 [INF] [PathResolver]: Attempting to resolve name: App.xaml
+2025-04-01 14:29:56.457 +09:00 [INF] Solution closed

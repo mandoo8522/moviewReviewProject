@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MovieReviewProject.Views.MovieDetailPage"
+    Title="{Binding SelectedMovie.Title}"
+    BackgroundColor="Black">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- 1) 영화 포스터 -->
+            <Image
+                x:Name="PosterImage"
+     
+                HeightRequest="400"
+                Aspect="AspectFit" />
+
+            <!-- 2) 제목 + 좋아요 버튼 -->
+            <HorizontalStackLayout VerticalOptions="Center" Spacing="10">
+                <!-- 영화 제목 레이블 -->
+                <Label
+                    x:Name="TitleLabel"
+                    
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+
+                <!-- 좋아요 토글용 하트 버튼 -->
+                <Button
+                    x:Name="LikeButton"
+                    Text="{Binding LikeSymbol}"
+                    FontSize="24"
+                    TextColor="{Binding LikeColor}"
+                    BackgroundColor="Transparent"
+                    Clicked="OnLikeButtonClicked"
+                    VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!-- 3) 장르 -->
+            <Label
+                x:Name="GenreLabel"
+                
+                FontSize="16"
+                TextColor="LightBlue"
+                HorizontalOptions="Center" />
+
+            <!-- 4) 평균 평점 + 리뷰 개수 -->
+            <HorizontalStackLayout
+                Spacing="10"
+                Padding="0,10,0,0"
+                HorizontalOptions="Center">
+                <Label
+                    x:Name="RatingAverageLabel"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    TextColor="Gold"
+                    Text="⭐ 0.0 / 5.0" />
+                <Label
+                    x:Name="TotalReviewsLabel"
+                    FontSize="14"
+                    TextColor="LightGray"
+                    Text="(0개의 리뷰)" />
+            </HorizontalStackLayout>
+
+            <ProgressBar
+                x:Name="RatingProgress"
+                Margin="10,0,10,10"
+                ProgressColor="Gold"
+                BackgroundColor="Gray"
+                HeightRequest="8"
+                Progress="0" />
+
+            <!-- 5) 줄거리 -->
+            <Label
+                Text="🎬 줄거리"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="0,10,0,5"
+                TextColor="White" />
+            <Label
+                x:Name="OverviewLabel"
+                
+                FontSize="14"
+                TextColor="White"
+                LineBreakMode="WordWrap" />
+
+            <!-- 6) 대표 리뷰 -->
+            <Label
+                Text="💬 대표 리뷰"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="0,10,0,5"
+                TextColor="White" />
+            <Label
+                x:Name="RepresentativeReviewLabel"
+                
+                FontSize="14"
+                TextColor="LightGray"
+                LineBreakMode="WordWrap" />
+
+            <!-- 7) 전체 리뷰 목록(최대 3개) + 더보기/접기 버튼 -->
+            <Label
+                Text="💬 리뷰 목록"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="0,10,0,5"
+                TextColor="White" />
+
+            <CollectionView
+                x:Name="ReviewListView"
+                ItemsSource="{Binding DisplayedReviews}"
+                SelectionMode="None"
+                Margin="0,0,0,10">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame
+                            BackgroundColor="#1E1E1E"
+                            CornerRadius="10"
+                            Padding="10"
+                            Margin="0,5">
+                            <VerticalStackLayout Spacing="5">
+                                <Label
+                                    Text="{Binding member_id}"
+                                    FontSize="12"
+                                    TextColor="#aaa" />
+                                <Label
+                                    Text="{Binding content}"
+                                    FontSize="14"
+                                    TextColor="White"
+                                    LineBreakMode="WordWrap" />
+                                <HorizontalStackLayout
+                                    Spacing="2"
+                                    BindableLayout.ItemsSource="{Binding StarImages}">
+                                    <BindableLayout.ItemTemplate>
+                                        <DataTemplate>
+                                            <Image
+                                                Source="{Binding}"
+                                                WidthRequest="16"
+                                                HeightRequest="16" />
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </HorizontalStackLayout>
+                                <Label
+                                    Text="{Binding highlight_quote}"
+                                    FontSize="12"
+                                    TextColor="#66c"
+                                    LineBreakMode="TailTruncation" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button
+                x:Name="ToggleReviewButton"
+                Text="더보기"
+                Clicked="OnToggleReviewClicked"
+                BackgroundColor="#444"
+                TextColor="White"
+                HeightRequest="40"
+                CornerRadius="8"
+                HorizontalOptions="Center"
+                WidthRequest="100" />
+
+            <!-- 8) 별점 선택용 이미지 -->
+            <Label
+                Text="⭐ 별점 주기"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="0,15,0,5"
+                TextColor="White" />
+            <HorizontalStackLayout
+                x:Name="StarLayout"
+                Spacing="5"
+                HorizontalOptions="Center">
+                <Image Source="star_empty.png" WidthRequest="30" HeightRequest="30" />
+                <Image Source="star_empty.png" WidthRequest="30" HeightRequest="30" />
+                <Image Source="star_empty.png" WidthRequest="30" HeightRequest="30" />
+                <Image Source="star_empty.png" WidthRequest="30" HeightRequest="30" />
+                <Image Source="star_empty.png" WidthRequest="30" HeightRequest="30" />
+            </HorizontalStackLayout>
+
+            <!-- 9) 감정 이모지 -->
+            <Label
+                Text="😊 감정 선택"
+                FontSize="18"
+                FontAttributes="Bold"
+                TextColor="White" />
+            <HorizontalStackLayout
+                x:Name="EmotionLayout"
+                Spacing="15"
+                HorizontalOptions="Center">
+                <Border
+                    x:Name="HappyBorder"
+                    Stroke="Transparent"
+                    StrokeThickness="2"
+                    StrokeShape="RoundRectangle 10">
+                    <Image
+                        x:Name="HappyEmoji"
+                        Source="happy.png"
+                        WidthRequest="50"
+                        HeightRequest="50" />
+                </Border>
+                <Border
+                    x:Name="MehBorder"
+                    Stroke="Transparent"
+                    StrokeThickness="2"
+                    StrokeShape="RoundRectangle 10">
+                    <Image
+                        x:Name="MehEmoji"
+                        Source="meh.png"
+                        WidthRequest="50"
+                        HeightRequest="50" />
+                </Border>
+                <Border
+                    x:Name="SadBorder"
+                    Stroke="Transparent"
+                    StrokeThickness="2"
+                    StrokeShape="RoundRectangle 10">
+                    <Image
+                        x:Name="SadEmoji"
+                        Source="sad.png"
+                        WidthRequest="50"
+                        HeightRequest="50" />
+                </Border>
+            </HorizontalStackLayout>
+
+            <!-- 10) 리뷰 작성용 에디터 -->
+            <Label
+                Text="✍ 리뷰 작성"
+                FontSize="18"
+                FontAttributes="Bold"
+                Margin="0,15,0,5"
+                TextColor="White" />
+            <Editor
+                x:Name="ReviewEditor"
+                Placeholder="이 영화에 대한 나의 생각을 작성하세요."
+                AutoSize="TextChanges"
+                HeightRequest="120"
+                BackgroundColor="White"
+                TextColor="Black" />
+
+            <Button
+                x:Name="SaveReviewButton"
+                Text="리뷰 저장"
+                Clicked="OnSaveReviewClicked"
+                BackgroundColor="#FF6F00"
+                TextColor="White"
+                CornerRadius="12"
+                HeightRequest="50"
+                Margin="0,10,0,0" />
+
+            <!-- 11) “내 리뷰 조회” 버튼 -->
+            <Button
+                x:Name="ShowMyReviewsButton"
+                Text="내 리뷰 조회"
+                Clicked="OnShowMyReviewsClicked"
+                BackgroundColor="#007BFF"
+                TextColor="White"
+                CornerRadius="12"
+                HeightRequest="40"
+                Margin="0,20,0,10"
+                HorizontalOptions="FillAndExpand" />
+
+            <!-- 12) 내 리뷰 관리 섹션 (기본 숨김) -->
+            <VerticalStackLayout
+                x:Name="MyReviewSection"
+                IsVisible="False"
+                Spacing="10">
+
+                <!-- 12-1) 내가 작성한 이 영화의 리뷰 리스트 -->
+                <CollectionView
+                    x:Name="MyReviewListView"
+                    ItemsSource="{Binding MyReviewsForThisMovie}"
+                    SelectionMode="Single"
+                    SelectionChanged="OnMyReviewSelectionChanged"
+                    HeightRequest="120">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame
+                                BackgroundColor="#2A2A2A"
+                                Padding="8"
+                                Margin="0,5"
+                                CornerRadius="8">
+                                <HorizontalStackLayout Spacing="10">
+                                    <Label
+                                        Text="{Binding created_at, StringFormat='{0:MM/dd HH:mm}'}"
+                                        FontSize="12"
+                                        TextColor="#CCCCCC"
+                                        VerticalOptions="Center" />
+                                    <Label
+                                        Text="{Binding content, StringFormat='{0:0..20}...'}"
+                                        FontSize="14"
+                                        TextColor="White"
+                                        VerticalOptions="Center"
+                                        LineBreakMode="TailTruncation" />
+                                </HorizontalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <!-- 12-2) 선택된 리뷰 미리보기 -->
+                <Label
+                    x:Name="SelectedReviewLabel"
+                    Text="리뷰를 선택하세요"
+                    FontSize="14"
+                    TextColor="LightGray"
+                    LineBreakMode="WordWrap"
+                    Margin="0,0,0,5" />
+
+                <!-- 12-3) 수정 / 삭제 버튼 -->
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Button
+                        x:Name="EditReviewButton"
+                        Text="수정"
+                        Clicked="OnEditMyReviewClicked"
+                        BackgroundColor="#FFA000"
+                        TextColor="White"
+                        IsEnabled="False" />
+
+                    <Button
+                        x:Name="DeleteReviewButton"
+                        Text="삭제"
+                        Clicked="OnDeleteMyReviewClicked"
+                        BackgroundColor="#D32F2F"
+                        TextColor="White"
+                        IsEnabled="False" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

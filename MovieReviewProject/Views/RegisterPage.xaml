@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovieReviewProject.Views.RegisterPage"
+             Title="회원가입"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto,*" Padding="20,30,20,20">
+
+            <!-- ← 버튼 (Row 0) -->
+            <Button Text="←"
+                    Clicked="OnBackClicked"
+                    BackgroundColor="Transparent"
+                    FontSize="22"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    TextColor="Black"
+                    Padding="0"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    Grid.Row="0" />
+
+            <!-- 회원가입 입력 폼 (Row 1) -->
+            <VerticalStackLayout Grid.Row="1" Padding="30" Spacing="20" VerticalOptions="CenterAndExpand">
+
+                <!-- 타이틀 -->
+                <Label Text="회원가입"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="Black" />
+
+                <!-- 아이디 -->
+                <Frame CornerRadius="12" BackgroundColor="#F0F0F0" Padding="0" HasShadow="False">
+                    <Entry x:Name="IdEntry"
+                           Placeholder="아이디"
+                           PlaceholderColor="#888"
+                           TextColor="Black"
+                           FontSize="14"
+                           Margin="10,0" />
+                </Frame>
+
+                <!-- 비밀번호 -->
+                <Frame CornerRadius="12" BackgroundColor="#F0F0F0" Padding="0" HasShadow="False">
+                    <Entry x:Name="PasswordEntry"
+                           Placeholder="비밀번호"
+                           IsPassword="True"
+                           PlaceholderColor="#888"
+                           TextColor="Black"
+                           FontSize="14"
+                           Margin="10,0" />
+                </Frame>
+
+                <!-- 이름 -->
+                <Frame CornerRadius="12" BackgroundColor="#F0F0F0" Padding="0" HasShadow="False">
+                    <Entry x:Name="NameEntry"
+                           Placeholder="이름"
+                           PlaceholderColor="#888"
+                           TextColor="Black"
+                           FontSize="14"
+                           Margin="10,0" />
+                </Frame>
+
+                <!-- 생년월일 -->
+                <Frame CornerRadius="12" BackgroundColor="#F0F0F0" Padding="0" HasShadow="False">
+                    <Entry x:Name="BirthEntry"
+                           Placeholder="생년월일 (YYYY-MM-DD)"
+                           PlaceholderColor="#888"
+                           TextColor="Black"
+                           FontSize="14"
+                           Margin="10,0" />
+                </Frame>
+
+                <!-- 성별 -->
+                <Frame CornerRadius="12" BackgroundColor="#F0F0F0" Padding="10,0" HasShadow="False">
+                    <Picker x:Name="GenderPicker"
+                            Title="성별 선택"
+                            FontSize="14"
+                            TextColor="Black">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>M</x:String>
+                                <x:String>F</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+
+                <!-- 이메일 -->
+                <Frame CornerRadius="12" BackgroundColor="#F0F0F0" Padding="0" HasShadow="False">
+                    <Entry x:Name="EmailEntry"
+                           Placeholder="이메일"
+                           Keyboard="Email"
+                           PlaceholderColor="#888"
+                           TextColor="Black"
+                           FontSize="14"
+                           Margin="10,0" />
+                </Frame>
+
+                <!-- 전화번호 -->
+                <Frame CornerRadius="12" BackgroundColor="#F0F0F0" Padding="0" HasShadow="False">
+                    <Entry x:Name="PhoneEntry"
+                           Placeholder="전화번호"
+                           Keyboard="Telephone"
+                           PlaceholderColor="#888"
+                           TextColor="Black"
+                           FontSize="14"
+                           Margin="10,0" />
+                </Frame>
+
+                <!-- 회원가입 버튼 -->
+                <Button Text="회원가입"
+                        Clicked="OnRegisterClicked"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HeightRequest="50"
+                        CornerRadius="10" />
+
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>
+    

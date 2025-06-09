@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MovieReviewProject.Views.MainPage"
+    BackgroundColor="Black"
+    Title="ReviewFlix">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <!-- 앱 타이틀 -->
+            <Label Text="🎬 ReviewFlix"
+             FontSize="32"
+             FontAttributes="Bold"
+             TextColor="Red"
+             HorizontalOptions="Center" />
+
+            <!-- 검색창 -->
+            <Border Stroke="Gray"
+              StrokeThickness="1"
+              StrokeShape="RoundRectangle 10"
+              Padding="10">
+                <Entry x:Name="SearchEntry"
+               Text="{Binding SearchQuery}"
+               Placeholder="영화 제목을 입력하세요"
+               PlaceholderColor="Gray"
+               TextColor="White"
+               Completed="OnSearchCompleted" />
+            </Border>
+
+            <!--인기 영화 리스트 -->
+            <Label Text="🔥 인기 영화"
+             FontSize="20"
+             TextColor="White" />
+
+            <CollectionView x:Name="PopularList"
+                      ItemsSource="{Binding Movies}"
+                      ItemsLayout="HorizontalList"
+                      HeightRequest="250"
+                      SelectionMode="Single"
+                      SelectionChanged="OnMovieSelected">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="5"
+                   CornerRadius="10"
+                   BackgroundColor="#1c1c1c"
+                   HasShadow="True">
+                            <VerticalStackLayout Spacing="5">
+                                <Image Source="{Binding PosterPath}"
+                       HeightRequest="180"
+                       Aspect="AspectFill" />
+                                <Label Text="{Binding Title}"
+                       FontSize="14"
+                       TextColor="White"
+                       LineBreakMode="TailTruncation"
+                       HorizontalTextAlignment="Center"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- 모든 영화 리스트 -->
+            <Label Text="🎞 모든 영화"
+             FontSize="20"
+             TextColor="White" />
+
+            <CollectionView x:Name="AllMoviesList"
+                      ItemsSource="{Binding Movies}"
+                      SelectionMode="Single"
+                      SelectionChanged="OnMovieSelected">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="5"
+                  ColumnDefinitions="100, *"
+                  RowSpacing="5">
+
+                            <Border Grid.Column="0"
+                      StrokeThickness="0"
+                      BackgroundColor="Transparent"
+                      StrokeShape="RoundRectangle 8"
+                      HeightRequest="150"
+                      WidthRequest="100">
+                                <Image Source="{Binding PosterPath}"
+                       Aspect="AspectFill" />
+                            </Border>
+
+                            <VerticalStackLayout Grid.Column="1"
+                                 Padding="10,0,0,0">
+                                <Label Text="{Binding Title}"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="White"/>
+                                <Label Text="{Binding Genre}"
+                       FontSize="14"
+                       TextColor="Gray"/>
+                                <Label Text="{Binding RatingAverage, StringFormat='⭐ {0:F1} / 5'}"
+                       FontSize="14"
+                       TextColor="Orange"/>
+                                <Label Text="{Binding Review}"
+                       FontSize="12"
+                       TextColor="LightGray"
+                       MaxLines="3"
+                       LineBreakMode="WordWrap" />
+                            </VerticalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

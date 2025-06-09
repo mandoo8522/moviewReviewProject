@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\graduationProject\\MovieReviewProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\controls\\animatedmoviecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\controls\\animatedmoviecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\myreviewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\myreviewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\myreviewspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\myreviewspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\movielistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\movielistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\moviedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\moviedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\moviedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\moviedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\moviereviewproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\moviereviewproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\movielistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\movielistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mando\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.0\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\moviereviewproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\moviereviewproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|c:\\graduationproject\\moviereviewproject\\moviereviewproject\\views\\moviedetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{75782B0F-63D6-462C-9136-DB03C5D2815E}|MovieReviewProject\\MovieReviewProject.csproj|solutionrelative:moviereviewproject\\views\\moviedetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyReviewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MyReviewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MyReviewsPage.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MyReviewsPage.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MyReviewsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:23:08.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T00:35:00.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "MovieReviewProject\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAkwHYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T00:34:44.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\App.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\App.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T03:17:29.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\MauiProgram.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\MauiProgram.cs",
+              "RelativeToolTip": "MovieReviewProject\\MauiProgram.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:23:44.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\AppShell.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\AppShell.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:09:11.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimatedMovieCard.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Controls\\AnimatedMovieCard.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Controls\\AnimatedMovieCard.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Controls\\AnimatedMovieCard.cs",
+              "RelativeToolTip": "MovieReviewProject\\Controls\\AnimatedMovieCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:54:14.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyReviewsPage.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MyReviewsPage.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MyReviewsPage.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MyReviewsPage.xaml",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MyReviewsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T00:22:44.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovieListPage.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieListPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MovieListPage.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieListPage.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MovieListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T01:49:17.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MovieDetailPage.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieDetailPage.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MovieDetailPage.xaml.cs",
+              "ViewState": "AgIAAMoBAAAAAAAAAAAkwBoBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:03:49.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieDetailPage.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T06:02:46.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MainPage.xaml",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAD8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T03:38:09.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwEoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T01:21:13.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "MovieReviewProject\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-27T01:20:38.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Services\\MovieService.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Services\\MovieService.cs",
+              "RelativeToolTip": "MovieReviewProject\\Services\\MovieService.cs",
+              "ViewState": "AgIAADUBAAAAAAAAAAAgwD8BAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T01:12:42.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Services\\ApiService.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Services\\ApiService.cs",
+              "RelativeToolTip": "MovieReviewProject\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T00:31:40.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\AppShell.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\AppShell.xaml",
+              "RelativeToolTip": "MovieReviewProject\\AppShell.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T04:05:29.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T03:38:38.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\App.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\App.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\App.xaml",
+              "RelativeToolTip": "MovieReviewProject\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T00:58:39.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALoUAAAAAAAAAAAMwMkUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-06T05:18:06.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MovieReviewProject.csproj",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\MovieReviewProject.csproj",
+              "RelativeDocumentMoniker": "MovieReviewProject\\MovieReviewProject.csproj",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\MovieReviewProject.csproj",
+              "RelativeToolTip": "MovieReviewProject\\MovieReviewProject.csproj",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T01:11:49.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MovieListPage.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieListPage.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MovieListPage.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieListPage.xaml",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MovieListPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T01:48:49.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\mando\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.0\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\Users\\mando\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.0\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\mando\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.0\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\Users\\mando\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.0\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAGcCAAAAAAAAAADwv3YCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-01T06:08:59.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MovieReviewProject",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\MovieReviewProject.csproj",
+              "RelativeDocumentMoniker": "MovieReviewProject\\MovieReviewProject.csproj",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\MovieReviewProject.csproj",
+              "RelativeToolTip": "MovieReviewProject\\MovieReviewProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-01T00:41:19.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Xamarin.Android.Common.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Common.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Common.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Common.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.7\\tools\\Xamarin.Android.Common.targets",
+              "ViewState": "AgIAAEYKAAAAAAAAAADwv1cKAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-01T00:45:18.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MovieDetailPage.xaml",
+              "DocumentMoniker": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "RelativeDocumentMoniker": "MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "ToolTip": "C:\\graduationProject\\MovieReviewProject\\MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "RelativeToolTip": "MovieReviewProject\\Views\\MovieDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T06:29:48.669Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
